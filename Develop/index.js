@@ -147,12 +147,13 @@ inquirer.prompt(questions)
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {} 
+let data = answers;
 
-fs.writeFile('./readme.md', data, err => {
+fs.writeFile("readme.md", data, (err) => {
     if (err){
         console.log(err);
     }else {
-        return 'Page successfully created!';
+        console.log('Your README has been successfully created!');
     }
 });
 
