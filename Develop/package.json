@@ -15,9 +15,8 @@
     "url": "git+ssh://git@github.com/benkaan001/generate_a_README.git"
   },
   "keywords": [
-    "'readme'",
-    "'readme",
-    "generator'"
+    "readme",
+    "readme generator"
   ],
   "bugs": {
     "url": "https://github.com/benkaan001/generate_a_README/issues"

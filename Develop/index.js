@@ -122,7 +122,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Please select the license that you would like to use for your application. ',
-        choices: ['MIT', 'GNU General Public License 2.0', 'GNU General Public License 3.0', 'Apache License 2.0']
+        choices: ['MIT', 'GNU General Public License 2.0', 'Apache License 2.0', 'Unlicense']
     }
     // {
     //     type: 'input',
@@ -139,10 +139,23 @@ const questions = [
     // }
 ];
 
+inquirer.prompt(questions)
+.then(answers => console.log(answers));
+
+
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {} 
+
+fs.writeFile('./readme.md', data, err => {
+    if (err){
+        console.log(err);
+    }else {
+        return 'Page successfully created!';
+    }
+});
+
 
 // TODO: Create a function to initialize app
 function init() {}
