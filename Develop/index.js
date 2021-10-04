@@ -39,24 +39,104 @@ const questions = [
         }
     },
     {
-        type: 'confirm',
+        type: 'input',
         name: 'installation instructions',
-        message: 'Would you like to provide installation instructions?',
-        default: true 
+        message: 'Please provide installation instructions. (Required)',
+        validate: installationInput => {
+            if(installationInput) {
+                return true;
+            } else {
+                console.log('Please provide instructions or type N/A');
+                return false;
+            }
+        }
+        
     },
     {
         type: 'input',
-        name: 'link',
-        message: 'Please provide the GitHub link to the repository. (Required)',
-        validate: linkInput => {
-            if(linkInput) {
+        name: 'usage information',
+        message: 'Please provide usage information. (Required)',
+        validate: usageInput => {
+            if (usageInput){
                 return true;
             } else {
-                console.log('Please enter a GitHub link!');
+                console.log('Please provide usage information or typle N/A');
                 return false;
-            };
+            }
         }
+    },
+    {
+        type: 'input',
+        name: 'contribution guidelines',
+        message: 'Please explain how others can contribute to your application. (Required)',
+        validate: contributionInput => {
+            if (contributionInput){
+                return true;
+            } else {
+                console.log('Please provide guidance for others to contribute.');
+                return false;
+            }
+        }
+
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Pleae explain how others can run tests on your application. (Required)',
+        validate: testInput => {
+            if (testInput) {
+                return true;
+            } else {
+                console.log('Please provide guidance about testing of your applicaiton!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contact',
+        message: 'Please enter an email address for others to contact you with questions. (Required)',
+        validate: contactInput => {
+            if (contactInput) {
+                return true;
+            } else {
+                console.log('Please enter a valid e-mail address!');
+                return false;
+            }
+        }
+    },
+    {
+        type:'input',
+        name: 'username',
+        message: 'Please enter your GitHub username. (Required)',
+        validate: usernameInput => {
+            if (usernameInput){
+                return true;
+            } else {
+                console.log('Enter your GitHub username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Please select the license that you would like to use for your application. ',
+        choices: ['MIT', 'GNU General Public License 2.0', 'GNU General Public License 3.0', 'Apache License 2.0']
     }
+    // {
+    //     type: 'input',
+    //     name: 'link',
+    //     message: 'Please provide the GitHub link to the repository. (Required)',
+    //     validate: linkInput => {
+    //         if(linkInput) {
+    //             return true;
+    //         } else {
+    //             console.log('Please enter a GitHub link!');
+    //             return false;
+    //         };
+    //     }
+    // }
 ];
 
 
