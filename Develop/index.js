@@ -146,16 +146,16 @@ inquirer.prompt(questions)
 
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {} 
-let data = answers;
+function writeToFile(fileName, data) {
 
-fs.writeFile("readme.md", data, (err) => {
+fs.writeFile("readme.md", generateMarkdown(data), (err) => {
     if (err){
         console.log(err);
     }else {
         console.log('Your README has been successfully created!');
     }
 });
+}
 
 
 // TODO: Create a function to initialize app
