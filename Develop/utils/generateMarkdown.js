@@ -4,7 +4,7 @@ function renderLicenseBadge(data) {
   if (licenseChoice === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   }
-  if (licenseChoice === "GNU General Public License 2.0") {
+  if (licenseChoice === "General Public License V2") {
     return "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]";
   }
   if (licenseChoice === "Apache License 2.0") {
@@ -15,7 +15,7 @@ function renderLicenseBadge(data) {
   } else {
     return "";
   }
-}
+};
 
 const generateMarkdown = (data) => {
   return `# ${data.title}
