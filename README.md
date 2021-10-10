@@ -23,21 +23,19 @@
   
   https://github.com/benkaan001/generate_a_README.git 
 
-  ```bash
+  ```bash <npm install> ```
 
-  <npm install> 
+```bash <npm install inquirer> 
   ```
-
-``` bash
-
-  <npm install inquirer> to insall the necessary node packages and dependencies including inquirer. 
+  
+  to insall the necessary node packages and dependencies including inquirer. 
 
 
   ## Usage
   
   After cloning the directories, please run the following command in your project root:
 
-  <node index>
+ ```bash <node index> ```
 
   ## Contributing
   
