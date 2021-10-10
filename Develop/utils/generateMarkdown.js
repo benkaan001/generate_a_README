@@ -53,7 +53,7 @@ const generateMarkdown = (data) => {
   - Please visit my GitHub for more information: https://www.github.com/${data.GitHub} 🤓
 
   ##License
-  -${data.license}
+  
   ${renderLicenseBadge(data)}
 
 `; 

@@ -135,7 +135,7 @@ const promptUser = (response) => {
 promptUser().then((response) => {
   console.log(response);
   const distributionReadyReadme = generateMarkdown(response);
-  fs.writeFile("README.md", distributionReadyReadme, (err) => {
+  fs.writeFile("demoREADME.md", distributionReadyReadme, (err) => {
     if (err) {
       console.log(err);
     } else {
