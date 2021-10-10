@@ -2,7 +2,7 @@ function renderLicenseBadge(data) {
   const licenseChoice = data.license[0];
 
   if (licenseChoice === "MIT") {
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
   }
   if (licenseChoice === "General Public License V2") {
     return "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]";
