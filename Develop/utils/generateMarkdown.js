@@ -31,26 +31,26 @@ const generateMarkdown = (data) => {
   *[GitHub](#GitHub)
   *[License](#license)
 
-  ##Description
+  #Description
   ${data.description}
 
-  ##Installation
+  #Installation
   ${data.installation}
 
-  ##Usage
+  #Usage
   ${data.usage}
 
-  ##Contributing
+  #Contributing
   ${data.contributing}
 
-  ##Tests
+  #Tests
   ${data.tests}
 
-  ##Email
+  #Email
   - Please reach out to me at ${data.email} for further questions. 🤗
 
-  ##GitHub
-  - Please visit my GitHub for more information: ${data.GitHub} 🤓
+  #GitHub
+  - Please visit my GitHub for more information: http://www.github.com/${data.GitHub} 🤓
 
   ##License
   ${renderLicenseBadge(data)}
