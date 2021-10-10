@@ -17,9 +17,18 @@
 
   ## Installation
 
-  <git clone> https://github.com/benkaan001/generate_a_README.git ;
+  ```bash
+  <git clone> 
+  ```
+  
+  https://github.com/benkaan001/generate_a_README.git 
+
+  ```bash
 
   <npm install> 
+  ```
+
+``` bash
 
   <npm install inquirer> to insall the necessary node packages and dependencies including inquirer. 
 
@@ -40,7 +49,7 @@
 
   ## Email
 
-  Please reach out to me at benkaan@gmail.com for further questions. 🤗
+  For questions and feedback, please reach out to me @ benkaan001@gmail.com 🤗
 
   ## GitHub
   
@@ -48,7 +57,6 @@
 
   ## License
 
-  -MIT
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
