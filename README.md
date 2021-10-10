@@ -44,11 +44,11 @@
 
   ## Email
 
-  For questions and feedback, please contact me via [my email] (mailto:benkaan001@gmail.com) or [my GitHub] (https://www.github.com/benkaan001)
+  For questions and feedback, please contact me via [my email](mailto:benkaan001@gmail.com) or [my GitHub](https://www.github.com/benkaan001)
 
   ## GitHub
 
-  :octocat: [Ben Kaan] (https://www.github.com/benkaan001)
+  :octocat: [Ben Kaan](https://www.github.com/benkaan001)
   
 
   ## License
