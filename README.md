@@ -17,7 +17,7 @@
 
   ## Installation
 
-  ```<git clone> ```
+  ```<git clone> ``` the repository from the following link:
   
   https://github.com/benkaan001/generate_a_README.git 
 
