@@ -13,20 +13,17 @@
 
   ## Description
   
-  * An effective README is a cornerstone of every project. This node.js application saves the user time by generating a  README.md file. The application uses node.js NPM inquirer package to collect user input. 
+  * An effective `README` is a cornerstone of every project. This node.js application saves the user time by generating a  `README.md` file. The application uses node.js NPM inquirer package to collect user input. 
 
   ## Installation
 
-  ```bash
-  <git clone> 
-  ```
+  ```<git clone> ```
   
   https://github.com/benkaan001/generate_a_README.git 
 
-  ```bash <npm install> ```
+  ```<npm install> ```
 
-```bash <npm install inquirer> 
-  ```
+```<npm install inquirer> ```
   
   to insall the necessary node packages and dependencies including inquirer. 
 
@@ -35,7 +32,7 @@
   
   After cloning the directories, please run the following command in your project root:
 
- ```bash <node index> ```
+ ```<node index> ```
 
   ## Contributing
   
