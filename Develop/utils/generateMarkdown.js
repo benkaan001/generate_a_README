@@ -47,10 +47,10 @@ const generateMarkdown = (data) => {
   ${data.tests}
 
   ##Email
-  ${data.email}
+  - Please reach out to me at ${data.email} for further questions. 🤗
 
   ##GitHub
-  ${data.GitHub}
+  - Please visit my GitHub for more information: ${data.GitHub} 🤓
 
   ##License
   ${renderLicenseBadge(data)}
