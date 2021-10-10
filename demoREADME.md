@@ -2,37 +2,37 @@
 
   ## Table of Contents
 
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[Email](#email)
-  *[GitHub](#GitHub)
-  *[License](#license)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Email](#email)
+  * [GitHub](#GitHub)
+  * [License](#license)
 
-  ##Description
+  ## Description
   test
 
-  ##Installation
+  ## Installation
   test
 
-  ##Usage
+  ## Usage
   test
 
-  ##Contributing
+  ## Contributing
   test
 
-  ##Tests
+  ## Tests
   test
 
-  ##Email
-  - Please reach out to me at test for further questions. 🤗
+  ## Email
+  - Please reach out to me at benkaan@test.com for further questions. 🤗
 
-  ##GitHub
-  - Please visit my GitHub for more information: https://www.github.com/test 🤓
+  ## GitHub
+  - Please visit my GitHub for more information: https://www.github.com/benkaan001 🤓
 
-  ##License
+  ## License
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 

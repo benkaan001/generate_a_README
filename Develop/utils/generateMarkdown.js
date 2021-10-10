@@ -22,37 +22,37 @@ const generateMarkdown = (data) => {
 
   ## Table of Contents
 
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[Email](#email)
-  *[GitHub](#GitHub)
-  *[License](#license)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Email](#email)
+  * [GitHub](#GitHub)
+  * [License](#license)
 
-  ##Description
+  ## Description
   ${data.description}
 
-  ##Installation
+  ## Installation
   ${data.installation}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##Contributing
+  ## Contributing
   ${data.contributing}
 
-  ##Tests
+  ## Tests
   ${data.tests}
 
-  ##Email
+  ## Email
   - Please reach out to me at ${data.email} for further questions. 🤗
 
-  ##GitHub
+  ## GitHub
   - Please visit my GitHub for more information: https://www.github.com/${data.GitHub} 🤓
 
-  ##License
+  ## License
   
   ${renderLicenseBadge(data)}
 
