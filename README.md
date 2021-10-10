@@ -1,4 +1,4 @@
-# generate_a_README
+# generate a readme
 
   ## Table of Contents
 
@@ -11,27 +11,28 @@
   *[GitHub](#GitHub)
   *[License](#license)
 
-  #Description
+  ##Description
   test
 
-  #Installation
+  ##Installation
   test
 
-  #Usage
+  ##Usage
   test
 
-  #Contributing
+  ##Contributing
   test
 
-  #Tests
+  ##Tests
   test
 
-  #Email
+  ##Email
   - Please reach out to me at benkaan@gmail.com for further questions. 🤗
 
-  #GitHub
-  - Please visit my GitHub for more information: http://www.github.com/benkaan001 🤓
+  ##GitHub
+  - Please visit my GitHub for more information: https://www.github.com/benkaan001 🤓
 
   ##License
+  -MIT
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
