@@ -13,7 +13,7 @@
 
   ## Description
   
-  * An effective `README` is an essential component every project. This node.js application saves the user time by generating a  `README.md` file. The application uses node.js NPM inquirer package to collect user input. 
+  * An effective `README` is an essential component of every successful project. This node.js application saves the user time by generating a  `README.md` file. The application uses node.js NPM inquirer package to collect user input. 
 
   ## Installation
 
@@ -31,10 +31,12 @@
   After cloning the directories, please run the following command in your project root:
 
  `<node index> `
+ 
 
   ## Contributing
   
   Contributions are welcome!
+  
 
   ## Tests
 
@@ -47,6 +49,7 @@
   ## Email
 
   For questions and feedback, please contact me via [my email](mailto:benkaan001@gmail.com) or [my GitHub](https://www.github.com/benkaan001)
+  
 
   ## GitHub
 
