@@ -27,10 +27,10 @@
   test
 
   ## Email
-  - Please reach out to me at test@test.com for further questions. 🤗
+  - Please reach out to me at test for further questions. 🤗
 
   ## GitHub
-  - Please visit my GitHub for more information: https://www.github.com/benkaan001 🤓
+  - Please visit my GitHub for more information: https://www.github.com/test 🤓
 
   ## License
   
