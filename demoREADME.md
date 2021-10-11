@@ -27,12 +27,12 @@
   test
 
   ## Email
-  - Please reach out to me at test for further questions. 🤗
+  - Please reach out to me at test@test.com for further questions. 
 
   ## GitHub
-  - Please visit my GitHub for more information: https://www.github.com/test 🤓
+  - :octocat: Please visit [my GitHub](https://www.github.com/benkaan001) for more information: 
 
   ## License
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 

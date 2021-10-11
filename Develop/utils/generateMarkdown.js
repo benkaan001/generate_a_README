@@ -2,16 +2,16 @@ function renderLicenseBadge(data) {
   const licenseChoice = data.license[0];
 
   if (licenseChoice === "MIT") {
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   }
   if (licenseChoice === "General Public License V2") {
-    return "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]";
+    return "![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)";
   }
   if (licenseChoice === "Apache License 2.0") {
-    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+    return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
   }
   if (licenseChoice === "Unlicense") {
-    return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
+    return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
   } else {
     return "";
   }
@@ -50,7 +50,7 @@ const generateMarkdown = (data) => {
   - Please reach out to me at ${data.email} for further questions. 
 
   ## GitHub
-  - Please visit [my GitHub](https://www.github.com/${data.GitHub}) for more information: 
+  - :octocat: Please visit [my GitHub](https://www.github.com/${data.GitHub}) for more information: 
 
   ## License
   
